@@ -1,9 +1,13 @@
 
 <?php 
 
-$link = "http://" . $_SERVER['HTTP_HOST'] . "/docker-compose-week-001/code/";
+$link = "http://" . $_SERVER['HTTP_HOST'] . "IDM/docker-compose-week-001/code/";
 
-echo $link;
+$test = pathinfo($_SERVER['HTTP_HOST']);
+
+echo $test['dirname'];
+
+//echo $link;
 
 
 

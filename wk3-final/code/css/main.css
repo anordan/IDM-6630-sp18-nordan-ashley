@@ -1,0 +1,58 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f95454;
+    margin-right: 3em;
+}
+
+h2, h3, h4 {
+	margin: 3em;
+	color: #000;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 2em;
+	
+}
+
+p {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    color: pink;
+    font-size: 1em;
+}
+
+.homelinks li {
+    color: #9296ef;
+    float: right;
+    padding: .2em;
+    margin-right: 6em;
+}
+
+
+
+li {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 2em;
+}
+
+li a {
+	text-decoration: none;
+    display: block;
+    color: pink;
+	
+}
+
+li a:hover {
+	color:orange;
+}
+
+section {
+    margin-left: 8em;
+    padding: .5em;
+}
